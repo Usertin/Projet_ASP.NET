@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MiniProjet.ViewModels;
 
@@ -13,7 +14,12 @@ public class AccountController : Controller
         this.userManager = userManager;
         this.signInManager = signInManager;
     }
-    [HttpGet]
+	[AllowAnonymous]
+	public IActionResult AccessDenied()
+	{
+		return View();
+	}
+	[HttpGet]
     public IActionResult Register()
     {
         return View();

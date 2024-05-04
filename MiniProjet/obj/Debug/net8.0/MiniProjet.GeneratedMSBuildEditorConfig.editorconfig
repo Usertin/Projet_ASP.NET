@@ -26,12 +26,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Telegrom\Desktop\DSI23 S2\tps\Atelier ASP.NET\WIP\MiniProjet
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Telegrom/Desktop/DSI23 S2/tps/Atelier ASP.NET/WIP/MiniProjet/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Telegrom/Desktop/DSI23 S2/tps/Atelier ASP.NET/WIP/MiniProjet/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Telegrom/Desktop/DSI23 S2/tps/Atelier ASP.NET/WIP/MiniProjet/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Telegrom/Desktop/DSI23 S2/tps/Atelier ASP.NET/WIP/MiniProjet/Views/Admin/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Telegrom/Desktop/DSI23 S2/tps/Atelier ASP.NET/WIP/MiniProjet/Views/Admin/EditRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Telegrom/Desktop/DSI23 S2/tps/Atelier ASP.NET/WIP/MiniProjet/Views/Admin/EditUsersInRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFVzZXJzSW5Sb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Telegrom/Desktop/DSI23 S2/tps/Atelier ASP.NET/WIP/MiniProjet/Views/Admin/ListRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlzdFJvbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Telegrom/Desktop/DSI23 S2/tps/Atelier ASP.NET/WIP/MiniProjet/Views/Cinema/Create.cshtml]

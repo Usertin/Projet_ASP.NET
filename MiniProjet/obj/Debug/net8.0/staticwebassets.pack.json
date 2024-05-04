@@ -33,6 +33,14 @@
       "PackagePath": "staticwebassets\\images\\fcbf1e41-ca11-47c5-9353-c7c815ef0e84_Duck.jpg"
     },
     {
+      "Id": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\wwwroot\\images\\noaccess.png",
+      "PackagePath": "staticwebassets\\images\\noaccess.png"
+    },
+    {
+      "Id": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\wwwroot\\js\\CustomScript.js",
+      "PackagePath": "staticwebassets\\js\\CustomScript.js"
+    },
+    {
       "Id": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

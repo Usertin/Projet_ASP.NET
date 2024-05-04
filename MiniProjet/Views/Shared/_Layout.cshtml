@@ -33,8 +33,13 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Cinema" asp-action="Index">Cinemas List</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Account" asp-action="Register"> Register </a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Administration</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" asp-controller="Admin" asp-action="CreateRole">Create Role</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" asp-controller="Admin" asp-action="ListRoles">List Roles</a>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -73,6 +78,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/CustomScript.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
