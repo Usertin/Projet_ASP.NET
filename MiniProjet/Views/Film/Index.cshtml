@@ -1,0 +1,79 @@
+﻿@model IEnumerable<MiniProjet.Models.Film>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<form class="form-inline my-2 my-lg-0" asp-action="ChercherFilm" asp-controller="Film">
+    <p>
+        <input size="30" placeholder="tapez un Titre" type="search" name="title" />
+        @*<select asp-items="ViewBag.Id" name="cinemaId" size="1.5" style="width:300px; height:30px"></select>
+        *@
+        <select class="form-control" asp-items="ViewBag.Id as SelectList">
+            <option value="">Select Cinema</option>
+        </select>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
+    </p>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Titre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Genre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DatePublication)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Resume)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HostCinemaId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Poster)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DatePublication)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Resume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HostCinemaId)
+            </td>
+            <td class="col-sm-10">
+                <div class="card-body text-left">
+                    <img src="~/images/@item.Poster" asp-append-version="true" height="100" width="100" />
+                </div>
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<a asp-action="Index" asp-controller="Film"> All Films</a>
