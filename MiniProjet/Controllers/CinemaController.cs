@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MiniProjet.Models;
 using MiniProjet.Models.Repositories;
 
 namespace MiniProjet.Controllers
 {
+	[Authorize]
 	public class CinemaController : Controller
 	{
 		readonly ICinemaRepository cinemaRepository;
@@ -14,6 +16,7 @@ namespace MiniProjet.Controllers
 			this.cinemaRepository = cinemaRepository;
 			this.filmRepository = filmRepository;
 		}
+		[AllowAnonymous]
 		// GET: CinemaController
 		public ActionResult Index()
 		{

@@ -256,3 +256,4 @@ C:\Users\Telegrom\Desktop\DSI23 S2\tps\Atelier ASP.NET\WIP\MiniProjet\bin\Debug\
 C:\Users\Telegrom\Desktop\DSI23 S2\tps\Atelier ASP.NET\WIP\MiniProjet\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\Telegrom\Desktop\DSI23 S2\tps\Atelier ASP.NET\WIP\MiniProjet\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Telegrom\Desktop\DSI23 S2\tps\Atelier ASP.NET\WIP\MiniProjet\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Telegrom\Desktop\DSI23 S2\tps\Atelier ASP.NET\WIP\MiniProjet\obj\Debug\net8.0\MiniProjet.sourcelink.json
