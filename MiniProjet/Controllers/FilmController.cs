@@ -25,6 +25,10 @@ namespace MiniProjet.Controllers
 		{
             ViewBag.Id = new SelectList(cinemaRepository.GetCinemaList(), "Id", "Name");
             var filmsList = filmRepository.GetFilmList();
+			foreach(Film film in filmsList)
+			{
+				film.CinemaName = cinemaRepository.GetCinemaById(film.HostCinemaId).Name;
+			}
 			return View(filmsList);
 		}
 

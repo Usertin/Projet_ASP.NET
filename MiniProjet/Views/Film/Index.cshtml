@@ -1,82 +1,9 @@
-﻿@model IEnumerable<MiniProjet.Models.Film>
-
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@model IEnumerable<MiniProjet.Models.Film>
 @{
     ViewData["Title"] = "Index";
 }
-
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<form class="form-inline my-2 my-lg-0" asp-action="ChercherFilm" asp-controller="Film">
-    <p>
-        <input size="30" placeholder="tapez un Titre" type="search" name="title" />
-        @*<select asp-items="ViewBag.Id" name="cinemaId" size="1.5" style="width:300px; height:30px"></select>
-        *@
-        <select class="form-control" asp-items="ViewBag.Id as SelectList">
-            <option value="">Select Cinema</option>
-        </select>
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
-    </p>
-</form>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Titre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Genre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DatePublication)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Resume)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.HostCinemaId)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Poster)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Titre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Genre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DatePublication)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Resume)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.HostCinemaId)
-            </td>
-            <td class="col-sm-10">
-                <div class="card-body text-left">
-                    <img src="~/images/@item.Poster" asp-append-version="true" height="100" width="100" />
-                </div>
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
-<a asp-action="Index" asp-controller="Film"> All Films</a>
 
 <!doctype html>
 <html lang="en">
@@ -95,19 +22,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
-
         <link href="~/template/css/bootstrap.min.css" rel="stylesheet">
-
         <link href="~/template/css/bootstrap-icons.css" rel="stylesheet">
-
         <link href="~/template/css/templatemo-topic-listing.css" rel="stylesheet">
-<!--
-
-TemplateMo 590 topic listing
-
-https://templatemo.com/tm-590-topic-listing
-
--->
     </head>
     
     <body class="topics-listing-page" id="top">
@@ -122,15 +39,14 @@ https://templatemo.com/tm-590-topic-listing
                         <div class="col-lg-5 col-12">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Homepage</a></li>
+                                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Homepage</a></li>
 
-                                    <li class="breadcrumb-item active" aria-current="page">Topics Listing</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Movies Listing</li>
                                 </ol>
                             </nav>
 
-                            <h2 class="text-white">Topics Listing</h2>
+                            <h2 class="text-white">Movies Listing</h2>
                         </div>
-
                     </div>
                 </div>
             </header>
@@ -141,65 +57,39 @@ https://templatemo.com/tm-590-topic-listing
                     <div class="row">
 
                         <div class="col-lg-12 col-12 text-center">
-                            <h3 class="mb-4">Popular Topics</h3>
+                            <h3 class="mb-4">Movies List</h3>
                         </div>
 
-                        <div class="col-lg-8 col-12 mt-3 mx-auto">
-                            <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5">
-                                <div class="d-flex">
-                                    <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
+                    @foreach (var item in Model)
+                    {
+                        <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5">
+                            <div class="d-flex">
+                                <img src="~/images/@item.Poster" class="custom-block-image img-fluid" alt="">
+                                <div class="custom-block-topics-listing-info d-flex">
+                                    <div>
+                                        <h5 class="mb-2">@item.Titre</h5>
 
-                                    <div class="custom-block-topics-listing-info d-flex">
-                                        <div>
-                                            <h5 class="mb-2">Web Design</h5>
-
-                                            <p class="mb-0">Topic Listing includes home, listing, detail and contact pages. Feel free to modify this template for your custom websites.</p>
-
-                                            <a href="topics-detail.html" class="btn custom-btn mt-3 mt-lg-4">Learn More</a>
-                                        </div>
-
-                                        <span class="badge bg-design rounded-pill ms-auto">14</span>
+                                        <p class="mb-0">Resume: @item.Resume</p>
+                                        <p class="mb-0">Release Date: @item.DatePublication</p>
+                                        <p class="mb-0">Host Cinema: @item.HostCinemaId</p>
+                                        <p class="mb-0">Host Cinema: @item.CinemaName</p>
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn custom-btn mt-3 mt-lg-4">Learn More</a>
+                                        @if(User.IsInRole("Admin")){
+                                            <a asp-action = "Edit" asp-route-id = "@item.Id" class="btn custom-btn mt-3 mt-lg-4">Edit</a>
+                                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn custom-btn mt-3 mt-lg-4">Delete</a>
+                                        } 
+                                        
+                                        <a  class="btn custom-btn mt-3 mt-lg-4">Add to watchlist</a>
                                     </div>
-                                </div>
-                            </div>
 
-                            <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5">
-                                <div class="d-flex">
-                                    <img src="images/topics/undraw_online_ad_re_ol62.png" class="custom-block-image img-fluid" alt="">
-
-                                    <div class="custom-block-topics-listing-info d-flex">
-                                        <div>
-                                            <h5 class="mb-2">Advertising</h5>
-
-                                            <p class="mb-0">Visit TemplateMo website to download free CSS templates. Lorem ipsum dolor, sit amet consectetur adipisicing elit animi necessitatibus</p>
-
-                                            <a href="topics-detail.html" class="btn custom-btn mt-3 mt-lg-4">Learn More</a>
-                                        </div>
-
-                                        <span class="badge bg-advertising rounded-pill ms-auto">30</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5">
-                                <div class="d-flex">
-                                    <img src="images/topics/undraw_Podcast_audience_re_4i5q.png" class="custom-block-image img-fluid" alt="">
-
-                                    <div class="custom-block-topics-listing-info d-flex">
-                                        <div>
-                                            <h5 class="mb-2">Podcast</h5>
-
-                                            <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit animi necessitatibus</p>
-
-                                            <a href="topics-detail.html" class="btn custom-btn mt-3 mt-lg-4">Learn More</a>
-                                        </div>
-
-                                        <span class="badge bg-music rounded-pill ms-auto">20</span>
-                                    </div>
+                                    @* <span class="badge bg-advertising rounded-pill ms-auto">30</span> *@
                                 </div>
                             </div>
                         </div>
+                    }
 
+                            
+                          
                         <div class="col-lg-12 col-12">
                             <nav aria-label="Page navigation example">
                                 <ul class="pagination justify-content-center mb-0">
@@ -248,7 +138,7 @@ https://templatemo.com/tm-590-topic-listing
                     <div class="row">
 
                         <div class="col-lg-12 col-12">
-                            <h3 class="mb-4">Trending Topics</h3>
+                            <h3 class="mb-4">Trending Genres</h3>
                         </div>
 
                         <div class="col-lg-6 col-md-6 col-12 mt-3 mb-4 mb-lg-0">
@@ -256,7 +146,7 @@ https://templatemo.com/tm-590-topic-listing
                                 <a href="topics-detail.html">
                                     <div class="d-flex">
                                         <div>
-                                            <h5 class="mb-2">Investment</h5>
+                                            <h5 class="mb-2">Horror</h5>
 
                                             <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
                                         </div>
@@ -264,53 +154,27 @@ https://templatemo.com/tm-590-topic-listing
                                         <span class="badge bg-finance rounded-pill ms-auto">30</span>
                                     </div>
 
-                                    <img src="images/topics/undraw_Finance_re_gnv2.png" class="custom-block-image img-fluid" alt="">
+                                    <img src="~/template/images/topics/undraw_Finance_re_gnv2.png" class="custom-block-image img-fluid" alt="">
                                 </a>
                             </div>
                         </div>
+                    <div class="col-lg-6 col-md-6 col-12 mt-3 mb-4 mb-lg-0">
+                        <div class="custom-block bg-white shadow-lg">
+                            <a href="topics-detail.html">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-2">Comedy</h5>
 
-                        <div class="col-lg-6 col-md-6 col-12 mt-lg-3">
-                            <div class="custom-block custom-block-overlay">
-                                <div class="d-flex flex-column h-100">
-                                    <img src="images/businesswoman-using-tablet-analysis.jpg" class="custom-block-image img-fluid" alt="">
-
-                                    <div class="custom-block-overlay-text d-flex">
-                                        <div>
-                                            <h5 class="text-white mb-2">Finance</h5>
-
-                                            <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis</p>
-
-                                            <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
-                                        </div>
-
-                                        <span class="badge bg-finance rounded-pill ms-auto">25</span>
+                                        <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
                                     </div>
 
-                                    <div class="social-share d-flex">
-                                        <p class="text-white me-4">Share:</p>
-
-                                        <ul class="social-icon">
-                                            <li class="social-icon-item">
-                                                <a href="#" class="social-icon-link bi-twitter"></a>
-                                            </li>
-
-                                            <li class="social-icon-item">
-                                                <a href="#" class="social-icon-link bi-facebook"></a>
-                                            </li>
-
-                                            <li class="social-icon-item">
-                                                <a href="#" class="social-icon-link bi-pinterest"></a>
-                                            </li>
-                                        </ul>
-
-                                        <a href="#" class="custom-icon bi-bookmark ms-auto"></a>
-                                    </div>
-
-                                    <div class="section-overlay"></div>
+                                    <span class="badge bg-finance rounded-pill ms-auto">30</span>
                                 </div>
-                            </div>
-                        </div>
 
+                                <img src="~/template/images/topics/undraw_Finance_re_gnv2.png" class="custom-block-image img-fluid" alt="">
+                            </a>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </section>

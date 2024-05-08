@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MiniProjet.Models;
 using MiniProjet.Models.Repositories;
+using MiniProjet.ViewModels;
 
 namespace MiniProjet.Controllers
 {
@@ -24,8 +25,8 @@ namespace MiniProjet.Controllers
 			return View(CinemasList);
 		}
 
-		// GET: CinemaController/Details/5
-		public ActionResult Details(int id)
+        // GET: CinemaController/Details/5
+        public ActionResult Details(int id)
 		{
 			var cinema = cinemaRepository.GetCinemaById(id);
 			return View(cinema);
