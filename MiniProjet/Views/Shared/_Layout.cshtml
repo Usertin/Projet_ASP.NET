@@ -53,6 +53,10 @@
                                     <a class="dropdown-item" asp-controller="Admin" asp-action="CreateRole">Create Role</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" asp-controller="Admin" asp-action="ListRoles">List Roles</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" asp-controller="Film" asp-action="Create">Add film</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" asp-controller="Cinema" asp-action="Create">Add Cinema</a>
                                 </div>
                             </li>
                         }
@@ -61,7 +65,7 @@
                     {
                         <div class="d-none d-lg-block">
                             <form method="post" asp-controller="account" asp-action="logout">
-                                <button type="submit" style="width:auto" class="nav-link btn btn-link py-0">@*Logout @User.Identity.Name*@ <img src="icons/sign_off.png" height="50px" width="50px" /></button>
+                                <button type="submit" style="width:auto" class="nav-link btn btn-link py-0">@*Logout @User.Identity.Name*@ <img src="~/icons/sign_off.png" height="50px" width="50px" /></button>
                             </form>
                         </div>
                     }

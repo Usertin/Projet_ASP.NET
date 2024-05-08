@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Hosting.Internal;
 using MiniProjet.Models;
 using MiniProjet.Models.Repositories;
+using System.Collections;
 
 namespace MiniProjet.Controllers
 {
@@ -25,10 +26,6 @@ namespace MiniProjet.Controllers
 		{
             ViewBag.Id = new SelectList(cinemaRepository.GetCinemaList(), "Id", "Name");
             var filmsList = filmRepository.GetFilmList();
-			foreach(Film film in filmsList)
-			{
-				film.CinemaName = cinemaRepository.GetCinemaById(film.HostCinemaId).Name;
-			}
 			return View(filmsList);
 		}
 
@@ -68,7 +65,8 @@ namespace MiniProjet.Controllers
                 {
                     await posterImage.CopyToAsync(fileStream);
                 }
-				Console.WriteLine("Unique FileName: ");// + uniqueFileName);
+				Console.WriteLine(uniqueFileName);// + uniqueFileName);
+				Console.WriteLine(uploadsFolder);// + uniqueFileName);
 
                 film.Poster = uniqueFileName;
 				filmRepository.Ajouter(film);

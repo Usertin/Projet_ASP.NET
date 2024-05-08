@@ -3,28 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\cinema\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\cinema\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\admin\\listroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\admin\\listroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\admin\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\admin\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\film\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\film\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\cinema\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\cinema\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\cinema\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\cinema\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\cinema\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\cinema\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\cinema\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\cinema\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\wwwroot\\logintemplate\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:wwwroot\\logintemplate\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\film\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\film\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\cinema\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\cinema\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\film\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -39,36 +67,52 @@
       "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\film\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\admin\\editusersinrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\admin\\editusersinrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\film\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\film\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\admin\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\admin\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\cinema\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\cinema\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\cinema\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\cinema\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\home\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\home\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\cinema\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\cinema\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\models\\repositories\\filmrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:models\\repositories\\filmrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|c:\\users\\telegrom\\desktop\\dsi23 s2\\tps\\atelier asp.net\\wip\\miniprojet\\views\\home\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC7799F3-3927-4364-881B-C6468A0FC87B}|MiniProjet.csproj|solutionrelative:views\\home\\faq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,124 +134,345 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Cinema\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cinema\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Cinema\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Cinema\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Film\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Film\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Film\\Index.cshtml",
+              "RelativeToolTip": "Views\\Film\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAD8AAACGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T06:29:06.809Z",
+              "WhenOpened": "2024-05-08T03:47:35.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Cinema\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cinema\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Cinema\\Details.cshtml",
-              "RelativeToolTip": "Views\\Cinema\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T06:29:01.094Z",
+              "WhenOpened": "2024-05-08T18:35:02.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Cinema\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cinema\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Cinema\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Cinema\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Title": "CreateRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Admin\\CreateRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\CreateRole.cshtml",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Admin\\CreateRole.cshtml",
+              "RelativeToolTip": "Views\\Admin\\CreateRole.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAcAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T06:28:56.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Film\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Film\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Film\\Create.cshtml",
-              "RelativeToolTip": "Views\\Film\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T06:28:51.605Z",
+              "WhenOpened": "2024-05-08T16:59:23.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Cinema\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cinema\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Cinema\\Create.cshtml",
-              "RelativeToolTip": "Views\\Cinema\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T06:28:45.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Cinema\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Cinema\\Index.cshtml",
               "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Cinema\\Index.cshtml",
               "RelativeToolTip": "Views\\Cinema\\Index.cshtml",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAG8AAAApAAAA",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAAAK0AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-08T06:20:53.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Film\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Film\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Film\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Film\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "ListRoles.cshtml",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Admin\\ListRoles.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ListRoles.cshtml",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Admin\\ListRoles.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ListRoles.cshtml",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAHIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T06:28:32.086Z",
+              "WhenOpened": "2024-05-08T16:59:44.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Cinema\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cinema\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Cinema\\Create.cshtml",
+              "RelativeToolTip": "Views\\Cinema\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:28:45.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAYwHEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T20:04:44.715Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Film\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Film\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Film\\Details.cshtml",
-              "RelativeToolTip": "Views\\Film\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T06:28:26.484Z",
+              "WhenOpened": "2024-05-08T17:24:19.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T17:24:44.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T17:25:42.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\wwwroot\\LoginTemplate\\style.css",
+              "RelativeDocumentMoniker": "wwwroot\\LoginTemplate\\style.css",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\wwwroot\\LoginTemplate\\style.css",
+              "RelativeToolTip": "wwwroot\\LoginTemplate\\style.css",
+              "ViewState": "AQIAANUAAAAAAAAAAAAQwAoBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-08T19:05:56.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FilmController.cs",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Controllers\\FilmController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FilmController.cs",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Controllers\\FilmController.cs",
+              "RelativeToolTip": "Controllers\\FilmController.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAhwIkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T05:55:40.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FilmRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Models\\Repositories\\FilmRepository.cs",
+              "RelativeDocumentMoniker": "Models\\Repositories\\FilmRepository.cs",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Models\\Repositories\\FilmRepository.cs",
+              "RelativeToolTip": "Models\\Repositories\\FilmRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T13:31:59.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Film\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Film\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Film\\Create.cshtml",
+              "RelativeToolTip": "Views\\Film\\Create.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAD0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:28:51.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Film\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Film\\Delete.cshtml",
               "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Film\\Delete.cshtml",
               "RelativeToolTip": "Views\\Film\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-08T06:28:17.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Film\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Film\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Film\\Details.cshtml",
+              "RelativeToolTip": "Views\\Film\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:28:26.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Film\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Film\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Film\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Film\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:28:32.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EditRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Admin\\EditRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditRole.cshtml",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Admin\\EditRole.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T16:59:34.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditUsersInRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Admin\\EditUsersInRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditUsersInRole.cshtml",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Admin\\EditUsersInRole.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditUsersInRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T16:59:39.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Cinema\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cinema\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Cinema\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Cinema\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:28:56.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Cinema\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cinema\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Cinema\\Details.cshtml",
+              "RelativeToolTip": "Views\\Cinema\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:29:01.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Cinema\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cinema\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Cinema\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Cinema\\Edit.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:29:06.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADoAAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T02:31:06.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Film.cs",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Models\\Film.cs",
+              "RelativeDocumentMoniker": "Models\\Film.cs",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Models\\Film.cs",
+              "RelativeToolTip": "Models\\Film.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwBMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T05:58:58.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CinemaController.cs",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Controllers\\CinemaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CinemaController.cs",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Controllers\\CinemaController.cs",
+              "RelativeToolTip": "Controllers\\CinemaController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAgwBwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T05:51:04.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAcwGgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T03:43:03.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "Cinema.cs",
               "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Models\\Cinema.cs",
               "RelativeDocumentMoniker": "Models\\Cinema.cs",
@@ -215,51 +480,11 @@
               "RelativeToolTip": "Models\\Cinema.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T06:23:39.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T06:23:39.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Film.cs",
-              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Models\\Film.cs",
-              "RelativeDocumentMoniker": "Models\\Film.cs",
-              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Models\\Film.cs",
-              "RelativeToolTip": "Models\\Film.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T05:58:58.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FilmController.cs",
-              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Controllers\\FilmController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FilmController.cs",
-              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Controllers\\FilmController.cs",
-              "RelativeToolTip": "Controllers\\FilmController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwB0AAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T05:55:40.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CinemaController.cs",
-              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Controllers\\CinemaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CinemaController.cs",
-              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Controllers\\CinemaController.cs",
-              "RelativeToolTip": "Controllers\\CinemaController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAkwBoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T05:51:04.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 27,
               "Title": "FAQ.cshtml",
               "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Home\\FAQ.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\FAQ.cshtml",
@@ -267,47 +492,7 @@
               "RelativeToolTip": "Views\\Home\\FAQ.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAANMAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T03:52:14.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Film\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Film\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Film\\Index.cshtml",
-              "RelativeToolTip": "Views\\Film\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T03:47:35.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T03:43:03.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Telegrom\\Desktop\\DSI23 S2\\tps\\Atelier ASP.NET\\WIP\\MiniProjet\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T02:31:06.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T03:52:14.736Z"
             }
           ]
         }

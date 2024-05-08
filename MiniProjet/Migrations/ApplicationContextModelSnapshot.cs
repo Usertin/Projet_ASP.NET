@@ -252,10 +252,6 @@ namespace MiniProjet.Migrations
                     b.Property<int?>("CinemaId")
                         .HasColumnType("int");
 
-                    b.Property<string>("CinemaName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime>("DatePublication")
                         .HasColumnType("datetime2");
 

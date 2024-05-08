@@ -24,7 +24,7 @@ namespace MiniProjet.Controllers
 			var CinemasList = cinemaRepository.GetCinemaList();
 			return View(CinemasList);
 		}
-
+		[AllowAnonymous]
         // GET: CinemaController/Details/5
         public ActionResult Details(int id)
 		{

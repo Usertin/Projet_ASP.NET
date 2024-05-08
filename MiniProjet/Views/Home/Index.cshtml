@@ -36,18 +36,6 @@
                     <h1 class="text-white text-center">Discover. Watch. Enjoy</h1>
 
                     <h6 class="text-center">platform for Movies all around the world</h6>
-
-                    <form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
-                        <div class="input-group input-group-lg">
-                            <span class="input-group-text bi-search" id="basic-addon1">
-
-                            </span>
-
-                            <input name="keyword" type="search" class="form-control" id="keyword" placeholder="Title, Genre, Year ..." aria-label="Search">
-
-                            <button type="submit" class="form-control">Search</button>
-                        </div>
-                    </form>
                 </div>
 
             </div>
@@ -59,23 +47,37 @@
 
                         <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                             <div class="custom-block bg-white shadow-lg">
-                                <a href="topics-detail.html">
+                                <a asp-controller="Film" asp-action="Index">
                                     <div class="d-flex">
                                         <div>
-                                            <h5 class="mb-2">Web Design</h5>
+                                            <h5 class="mb-2">Movies</h5>
 
-                                            <p class="mb-0">When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
+                                            <p class="mb-0">A vast collection of movies online.</p>
                                         </div>
 
-                                        <span class="badge bg-design rounded-pill ms-auto">14</span>
                                     </div>
 
                                     <img src="~/template/images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
                                 </a>
                             </div>
                         </div>
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
+                        <div class="custom-block bg-white shadow-lg">
+                            <a asp-controller="Cinema" asp-action="Index">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5 class="mb-2">Cinemas</h5>
 
-                        <div class="col-lg-6 col-12">
+                                        <p class="mb-0">Prefer the Big screen? no problem! checkout cinemas and what they're showing.</p>
+                                    </div>
+
+                                </div>
+
+                                <img src="~/template/images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
+                            </a>
+                        </div>
+                    </div>
+                        @* <div class="col-lg-6 col-12">
                             <div class="custom-block custom-block-overlay">
                                 <div class="d-flex flex-column h-100">
                                     <img src="images/businesswoman-using-tablet-analysis.jpg" class="custom-block-image img-fluid" alt="">
@@ -93,7 +95,7 @@
                                     <div class="section-overlay"></div>
                                 </div>
                             </div>
-                        </div>
+                        </div> *@
 
                     </div>
                 </div>
