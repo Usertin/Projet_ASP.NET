@@ -18,15 +18,15 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
 
-    <link href="template/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/template/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="template/css/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/template/css/bootstrap-icons.css" rel="stylesheet">
 
-    <link href="template/css/templatemo-topic-listing.css" rel="stylesheet">
+    <link href="~/template/css/templatemo-topic-listing.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg" style="background-color:;">
+        <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Movies.Inc</a>
                 
@@ -41,13 +41,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-lg-5 me-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-dark click-scroll" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark click-scroll" asp-area="" asp-controller="Film" asp-action="Index">Films List</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Film" asp-action="Index">Films List</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark click-scroll" asp-area="" asp-controller="Cinema" asp-action="Index">Cinemas List</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Cinema" asp-action="Index">Cinemas List</a>
                         </li>
                         @if((SignInManager.IsSignedIn(User)) && (User.IsInRole("Admin"))){
                         <li class="nav-item dropdown">
@@ -64,23 +64,23 @@
                     {
                         <div class="d-none d-lg-block">
                             <form method="post" asp-controller="account" asp-action="logout">
-                                <button type="submit" style="width:auto" class="nav-link btn btn-link py-0">Logout @User.Identity.Name</button>
+                                <button type="submit" style="width:auto" class="nav-link btn btn-link py-0">@*Logout @User.Identity.Name*@ <img src="icons/sign_off.png" height="50px" width="50px" /></button>
                             </form>
                         </div>
                     }
                     else
                     {
                         <div class="d-none d-lg-block">
-                            <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
-                            <a class="nav-link" asp-controller="Account" asp-action="Register">Register</a>
+                            @* <a href="#top" class="navbar-icon bi-person smoothscroll"></a> *@
+                            <a class="nav-link" asp-controller="Account" asp-action="Register"><img src="~/icons/sign_up.png" height="50px" width="50px" /></a>
                         </div>
                         <div class="d-none d-lg-block">
-                            <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
-                            <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
+                            <a class="nav-link" asp-controller="Account" asp-action="Login">
+                                <img src="~/icons/sign_in.png" height="50px" width="50px" />
+                            </a>
+
                         </div>
                     }
-
-                    
                 </div>
             </div>
         </nav>
@@ -90,10 +90,78 @@
             @RenderBody()
         </main>
     </div>
-
-    <footer class="border-top footer text-muted">
+    <footer class="site-footer section-padding">
+        <hr />
         <div class="container">
-            &copy; 2024 - MiniProjet - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="row">
+
+                <div class="col-lg-3 col-12 mb-4 pb-2">
+                    <a class="navbar-brand mb-2" asp-controller="Home" action="Index">
+                        <i class="bi-back"></i>
+                        <span>Movies.Inc</span>
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <h6 class="site-footer-title mb-3">Resources</h6>
+
+                    <ul class="site-footer-links">
+                        <li class="site-footer-link-item">
+                            <a asp-controller="Home" asp-action="Index" class="site-footer-link">Home</a>
+                        </li>
+                        
+                        <li class="site-footer-link-item">
+                            <a asp-controller="Home" asp-action="FAQ" class="site-footer-link">FAQs</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                            <a asp-controller="Home" asp-action="Contact" class="site-footer-link">Contact</a>
+                        </li>
+                        <li class="site-footer-link-item">
+                            <a asp-controller="Home" asp-action="Privacy" class="site-footer-link">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
+                    <h6 class="site-footer-title mb-3">Information</h6>
+
+                    <p class="text-white d-flex mb-1">
+                        <a href="tel: 305-240-9671" class="site-footer-link">
+                            305-240-9671
+                        </a>
+                    </p>
+
+                    <p class="text-white d-flex">
+                        <a href="mailto:MoviesInc@company.com" class="site-footer-link">
+                            MoviesInc@company.com
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            English
+                        </button>
+
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="button">Thai</button></li>
+
+                            <li><button class="dropdown-item" type="button">Myanmar</button></li>
+
+                            <li><button class="dropdown-item" type="button">Arabic</button></li>
+                        </ul>
+                    </div>
+
+                    <p class="copyright-text mt-lg-5 mt-4">
+                        Copyright © 2024 Movies Incorporation. All rights reserved.
+                        <br><br>Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a> Distribution <a href="https://themewagon.com">ThemeWagon</a>
+                    </p>
+
+                </div>
+
+            </div>
         </div>
     </footer>
     <script src="~/telib/jquery/dist/jquery.min.js"></script>
@@ -101,11 +169,11 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/js/CustomScript.js"></script>
     @*================================================================================*@
-    <script src="template/js/jquery.min.js"></script>
-    <script src="template/js/bootstrap.bundle.min.js"></script>
-    <script src="template/js/jquery.sticky.js"></script>
-    <script src="template/js/click-scroll.js"></script>
-    <script src="template/js/custom.js"></script>
+    <script src="~/template/js/jquery.min.js"></script>
+    <script src="~/template/js/bootstrap.bundle.min.js"></script>
+    <script src="~/template/js/jquery.sticky.js"></script>
+    <script src="~/template/js/.js"></script>
+    <script src="~/template/js/custom.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

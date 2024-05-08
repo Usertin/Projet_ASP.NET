@@ -23,6 +23,16 @@ namespace MiniProjet.Controllers
 			return View();
 		}
 
+		public IActionResult Contact()
+		{
+			return View();
+		}
+
+		public IActionResult FAQ()
+		{
+			return View();
+		}
+
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 		public IActionResult Error()
 		{
